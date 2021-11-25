@@ -1,0 +1,26 @@
+.tab_view{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.tab_view .tab_card{
+    position: static;
+    display: inline-block;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.tab_view .tab_collapse{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.tab_view .active{
+    background: #436eb3;
+}
+.tab_view .card-header,.tab_view .card{
+    border-radius: 0;
+}
+.tab_view .active .btn-link{
+    color: #fff;
+    text-decoration: underline;
+}
